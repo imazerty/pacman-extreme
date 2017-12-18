@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1513103707">
+  <File Type="VDS-TIMING-PB" Name="labkit_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="labkit_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="labkit.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="labkit_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="labkit_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="labkit_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="labkit.vds"/>
+  <File Type="PA-TCL" Name="labkit.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/powerups/strawberry.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/powerups/strawberry.v"/>
+        <Attr Name="ImportTime" Val="1512028566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/powerups/orange.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/powerups/orange.v"/>
+        <Attr Name="ImportTime" Val="1512028562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/powerups/key.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/powerups/key.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/food.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/food.v"/>
+        <Attr Name="ImportTime" Val="1512028558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/powerups/energizer_powerup.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/powerups/energizer_powerup.v"/>
+        <Attr Name="ImportTime" Val="1512028558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/powerups/apple.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/powerups/apple.v"/>
+        <Attr Name="ImportTime" Val="1512028557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_up_triangle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_up_triangle.v"/>
+        <Attr Name="ImportTime" Val="1512028559"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_up_rectangle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_up_rectangle.v"/>
+        <Attr Name="ImportTime" Val="1512028559"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_scared_blue_triangle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_scared_blue_triangle.v"/>
+        <Attr Name="ImportTime" Val="1512028559"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_scared_blue_rectangle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_scared_blue_rectangle.v"/>
+        <Attr Name="ImportTime" Val="1512028559"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_right_triangle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_right_triangle.v"/>
+        <Attr Name="ImportTime" Val="1512028559"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_right_rectangle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_right_rectangle.v"/>
+        <Attr Name="ImportTime" Val="1512028559"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_left_triangle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_left_triangle.v"/>
+        <Attr Name="ImportTime" Val="1512028559"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_left_rectangle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_left_rectangle.v"/>
+        <Attr Name="ImportTime" Val="1512028559"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_eyes_up.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_eyes_up.v"/>
+        <Attr Name="ImportTime" Val="1512028558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_eyes_right.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_eyes_right.v"/>
+        <Attr Name="ImportTime" Val="1512028558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_eyes_left.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_eyes_left.v"/>
+        <Attr Name="ImportTime" Val="1512028558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_eyes_down.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_eyes_down.v"/>
+        <Attr Name="ImportTime" Val="1512028558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_down_triangle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_down_triangle.v"/>
+        <Attr Name="ImportTime" Val="1512028558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_down_rectangle.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_down_rectangle.v"/>
+        <Attr Name="ImportTime" Val="1512028558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/divider_kim.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../From Kim/pacman_extrememe/pacman_extrememe.srcs/sources_1/imports/new/divider_kim.v"/>
+        <Attr Name="ImportTime" Val="1511804544"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divider.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_right_mouthopen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_right_mouthopen.v"/>
+        <Attr Name="ImportTime" Val="1512028565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_right_mouth1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_right_mouth1.v"/>
+        <Attr Name="ImportTime" Val="1512028564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_right_mouth2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_right_mouth2.v"/>
+        <Attr Name="ImportTime" Val="1512028564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_right_mouth3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_right_mouth3.v"/>
+        <Attr Name="ImportTime" Val="1512028565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_left_mouthopen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_left_mouthopen.v"/>
+        <Attr Name="ImportTime" Val="1512028564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_up_mouth2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_up_mouth2.v"/>
+        <Attr Name="ImportTime" Val="1512028565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_up_mouth3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_up_mouth3.v"/>
+        <Attr Name="ImportTime" Val="1512028565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_down_mouth2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_down_mouth2.v"/>
+        <Attr Name="ImportTime" Val="1512028562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_up_mouthopen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_up_mouthopen.v"/>
+        <Attr Name="ImportTime" Val="1512028565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_down_mouth1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_down_mouth1.v"/>
+        <Attr Name="ImportTime" Val="1512028562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_dying11.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_dying11.v"/>
+        <Attr Name="ImportTime" Val="1512028562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_up_mouth1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_up_mouth1.v"/>
+        <Attr Name="ImportTime" Val="1512028565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_down_mouth3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_down_mouth3.v"/>
+        <Attr Name="ImportTime" Val="1512028562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_dying10.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_dying10.v"/>
+        <Attr Name="ImportTime" Val="1512028562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_left_mouth1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_left_mouth1.v"/>
+        <Attr Name="ImportTime" Val="1512028564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_left_mouth3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_left_mouth3.v"/>
+        <Attr Name="ImportTime" Val="1512028564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_left_mouth2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_left_mouth2.v"/>
+        <Attr Name="ImportTime" Val="1512028564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_dying8.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_dying8.v"/>
+        <Attr Name="ImportTime" Val="1512028563"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_dying9.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_dying9.v"/>
+        <Attr Name="ImportTime" Val="1512028564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_mouthclosed.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_mouthclosed.v"/>
+        <Attr Name="ImportTime" Val="1512028564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_down_mouthopen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_down_mouthopen.v"/>
+        <Attr Name="ImportTime" Val="1512028562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_dying4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_dying4.v"/>
+        <Attr Name="ImportTime" Val="1512028563"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_dying5.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_dying5.v"/>
+        <Attr Name="ImportTime" Val="1512028563"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_dying6.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_dying6.v"/>
+        <Attr Name="ImportTime" Val="1512028563"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_dying7.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_dying7.v"/>
+        <Attr Name="ImportTime" Val="1512028563"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_dying1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_dying1.v"/>
+        <Attr Name="ImportTime" Val="1512028562"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_dying2.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_dying2.v"/>
+        <Attr Name="ImportTime" Val="1512028563"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman_dying3.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman_dying3.v"/>
+        <Attr Name="ImportTime" Val="1512028563"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/powerups/cherry.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/powerups/cherry.v"/>
+        <Attr Name="ImportTime" Val="1512028557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/movement.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pacman_life.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display_food.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_p.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_p.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_v.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_v.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_u.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_u.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_t.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_t.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_s.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_s.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_r.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_r.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_o.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_o.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_n.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_n.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_m.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_m.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_l.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_l.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_i.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_i.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_g.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_g.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_e.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_e.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_d.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_d.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_c.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_c.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_b.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_b.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_a.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_a.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/box.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../level_builder/level_builder.srcs/sources_1/new/box.v"/>
+        <Attr Name="ImportTime" Val="1512068435"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/location_blocked.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../level_builder/level_builder.srcs/sources_1/new/location_blocked.v"/>
+        <Attr Name="ImportTime" Val="1512496812"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/grid.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../level_builder/level_builder.srcs/sources_1/new/grid.v"/>
+        <Attr Name="ImportTime" Val="1512072731"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/controler_clk.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/timer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/collision.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman/pacman.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/pacman/pacman.v"/>
+        <Attr Name="ImportTime" Val="1512028565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/gameplay_fsm.srcs/ghost.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PSRCDIR/ghost.v"/>
+        <Attr Name="ImportTime" Val="1512949649"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/enemy_ai.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/enemy_ai.v"/>
+        <Attr Name="ImportTime" Val="1513015679"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/game_menu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../game_menu/game_menu.srcs/sources_1/new/game_menu.v"/>
+        <Attr Name="ImportTime" Val="1512919661"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/display_lives.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/debounce.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/debounce.v"/>
+        <Attr Name="ImportTime" Val="1509560587"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/display_8hex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/display_8hex.v"/>
+        <Attr Name="ImportTime" Val="1509560591"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/level_builder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../level_builder/level_builder.srcs/sources_1/new/level_builder.v"/>
+        <Attr Name="ImportTime" Val="1512511753"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/nes_controler.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/game_fsm.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources/labkit_lab4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/labkit_lab4.v"/>
+        <Attr Name="ImportTime" Val="1509560575"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_scared_white_triangle.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_scared_white_triangle.v"/>
+        <Attr Name="ImportTime" Val="1512028559"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/ghost_scared_white_rectangle.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/ghost_scared_white_rectangle.v"/>
+        <Attr Name="ImportTime" Val="1512028559"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/ghost/scared_ghost.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/ghost/scared_ghost.v"/>
+        <Attr Name="ImportTime" Val="1512028566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/blob.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_h.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_h.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_f.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_f.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/points/points_300.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/points/points_300.v"/>
+        <Attr Name="ImportTime" Val="1512028566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_j.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_j.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/points/points_400.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/points/points_400.v"/>
+        <Attr Name="ImportTime" Val="1512028566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/points/points_1600.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/points/points_1600.v"/>
+        <Attr Name="ImportTime" Val="1512028565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/digit3.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/digit3.v"/>
+        <Attr Name="ImportTime" Val="1512028557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/digit1.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/digit1.v"/>
+        <Attr Name="ImportTime" Val="1512028557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/points/points_100.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/points/points_100.v"/>
+        <Attr Name="ImportTime" Val="1512028565"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_w.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_w.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_q.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_q.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/digit7.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/digit7.v"/>
+        <Attr Name="ImportTime" Val="1512028558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/digit5.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/digit5.v"/>
+        <Attr Name="ImportTime" Val="1512028557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_y.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_y.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/digit9.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/digit9.v"/>
+        <Attr Name="ImportTime" Val="1512028558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/points/points_200.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/points/points_200.v"/>
+        <Attr Name="ImportTime" Val="1512028566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/points/points_800.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/points/points_800.v"/>
+        <Attr Name="ImportTime" Val="1512028566"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_k.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_k.v"/>
+        <Attr Name="ImportTime" Val="1512028560"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/digit0.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/digit0.v"/>
+        <Attr Name="ImportTime" Val="1512028557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/digit4.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/digit4.v"/>
+        <Attr Name="ImportTime" Val="1512028557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/digit2.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/digit2.v"/>
+        <Attr Name="ImportTime" Val="1512028557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_x.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_x.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/digit8.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/digit8.v"/>
+        <Attr Name="ImportTime" Val="1512028558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/digit6.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/digit6.v"/>
+        <Attr Name="ImportTime" Val="1512028557"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/pacman_modules/characters/letter_z.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PSRCDIR/pacman_modules/characters/letter_z.v"/>
+        <Attr Name="ImportTime" Val="1512028561"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="labkit"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/sources/Nexys4DDR_Master_lab4.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sources/Nexys4DDR_Master_lab4.xdc"/>
+        <Attr Name="ImportTime" Val="1509560579"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

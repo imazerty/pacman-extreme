@@ -1,0 +1,594 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.2 (lin64) Build 1577090 Thu Jun  2 16:32:35 MDT 2016
+| Date         : Tue Dec 12 13:42:21 2017
+| Host         : eecs-digital-09 running 64-bit Ubuntu 14.04.5 LTS
+| Command      : report_control_sets -verbose -file labkit_control_sets_placed.rpt
+| Design       : labkit
+| Device       : xc7a100t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |   541 |
+| Unused register locations in slices containing registers |  2150 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |            7059 |         3021 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |            2154 |         1153 |
+| Yes          | No                    | No                     |            1817 |          748 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |            2076 |         1001 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------------+-------------------------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+
+|     Clock Signal     |                           Enable Signal                           |                          Set/Reset Signal                          | Slice Load Count | Bel Load Count |
++----------------------+-------------------------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+
+|  CLK100MHZ_IBUF_BUFG |                                                                   |                                                                    |                1 |              2 |
+|  clk_BUFG            | builder/change_blocked/food_reg[28][76]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][32]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][28]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][24]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][20]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][16]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][12]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][0]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][36]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[28][72]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[28][0]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][8]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][76]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][72]                           | controler2/system_rset                                             |                4 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][64]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][60]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][56]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][48]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][40]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][44]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][48]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][4]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][52]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][56]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][60]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][64]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][68]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][72]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[29][8]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][0]                             | controler2/system_rset                                             |                4 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][12]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][76]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][24]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][28]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][32]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][36]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][40]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][44]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][48]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][52]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][60]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][64]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][72]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][76]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][8]                             | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][0]                             | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][12]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][20]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][8]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][28]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][32]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][36]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][40]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][44]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][48]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][52]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][60]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][64]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][72]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][76]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[3][8]                             | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[4][0]                             | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][40]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][44]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[23][32]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][28]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][32]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][36]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][40]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][44]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][52]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][56]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][60]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][64]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][72]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][8]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[23][0]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[23][12]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[23][28]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][20]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[23][36]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[23][40]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[23][44]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[23][72]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[23][76]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][16]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][24]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][28]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][32]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][36]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][40]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][44]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][48]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][4]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][56]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][8]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][0]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][16]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][24]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][28]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][32]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][36]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][40]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][44]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][48]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][4]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][56]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][64]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][68]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][72]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[25][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][24]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[26][0]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[26][72]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[26][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][0]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][12]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][16]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][24]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][28]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[27][32]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][72]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][76]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][8]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][0]                            | controler2/system_rset                                             |                4 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][12]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[22][16]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[16]                                      | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][4]                         | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][3]                         | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][2]                         | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][1]                         | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][0]                         | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[19]                                      | controler2/system_rset                                             |                4 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[18]                                      | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[17]                                      | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][5]                         | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[15]                                      | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[14]                                      | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[13]                                      | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[12]                                      | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[10]                                      | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[9]                                       | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[11]                                      | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[8]                                       | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][6]                         | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][7]                         | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][8]                         | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][11]                        | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][9]                         | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][10]                        | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][12]                        | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][13]                        | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][14]                        | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][15]                        | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][16]                        | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][17]                        | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][18]                        | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[0][79][19]                        | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[7][72]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | player2/green_move_smart/divider_400mhz/sorted_directions         | player2/green_move_smart/divider_400mhz/sorted_directions_reg[2]   |                2 |              4 |
+|  clk_BUFG            | controler2/E[0]                                                   | controler2/rset0_0                                                 |                1 |              4 |
+|  clk_BUFG            | controler2/controls_saved_reg[0][0]                               | controler2/rset0                                                   |                2 |              4 |
+|  clk_BUFG            | controler1/E[0]                                                   | controler2/rset0                                                   |                1 |              4 |
+|  clk_BUFG            | controler1/controls_saved_reg[0][0]                               | controler2/rset0_0                                                 |                2 |              4 |
+|  clk_BUFG            | builder/index_x[5]_i_1_n_0                                        | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | player2/timer1/one_hz/E[0]                                        |                                                                    |                1 |              4 |
+|  clk_BUFG            | player2/specials_timer/one_hz/E[0]                                |                                                                    |                1 |              4 |
+|  clk_BUFG            | player2/greenghost_move/E[0]                                      |                                                                    |                2 |              4 |
+|  clk_BUFG            | player2/pinkghost_move/E[0]                                       |                                                                    |                1 |              4 |
+|  clk_BUFG            | player2/pinkghost_move/controls_saved[3]_i_2__0_n_0               | controler2/rset0_0                                                 |                2 |              4 |
+|  clk_BUFG            | player2/player/eighth_second_divider/E[0]                         |                                                                    |                2 |              4 |
+|  clk_BUFG            | player2/blueghost_move/E[0]                                       |                                                                    |                1 |              4 |
+|  clk_BUFG            | player2/blueghost_move/controls_saved[3]_i_1__0_n_0               | controler2/rset0_0                                                 |                2 |              4 |
+|  clk_BUFG            | player2/green_move_smart/divider_400mhz/sorted_directions         | player2/green_move_smart/divider_400mhz/sorted_directions_reg[0]   |                2 |              4 |
+|  clk_BUFG            | player2/green_move_smart/divider_400mhz/sorted_directions         | player2/green_move_smart/divider_400mhz/sorted_directions_reg[1]   |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[7][76]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | player2/green_move_smart/divider_400mhz/sorted_directions         | player2/green_move_smart/divider_400mhz/sorted_directions_reg[3]   |                2 |              4 |
+|  clk_BUFG            | player2/green_move_smart/divider_400mhz/E[0]                      |                                                                    |                3 |              4 |
+|  clk_BUFG            | player2/pink_move_smart/divider_400mhz/sorted_directions          | player2/pink_move_smart/divider_400mhz/sorted_directions_reg[0]    |                2 |              4 |
+|  clk_BUFG            | player2/pink_move_smart/divider_400mhz/sorted_directions          | player2/pink_move_smart/divider_400mhz/sorted_directions_reg[1]    |                1 |              4 |
+|  clk_BUFG            | player2/pink_move_smart/divider_400mhz/sorted_directions          | player2/pink_move_smart/divider_400mhz/sorted_directions_reg[2]    |                1 |              4 |
+|  clk_BUFG            | player2/pink_move_smart/divider_400mhz/sorted_directions          | player2/pink_move_smart/divider_400mhz/sorted_directions_reg[3]    |                1 |              4 |
+|  clk_BUFG            | player2/pink_move_smart/divider_400mhz/next_direction_reg[0]_0[0] |                                                                    |                4 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[0]                                       | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[1]                                       | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[2]                                       | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[3]                                       | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[4]                                       | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[5]                                       | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[6]                                       | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/E[7]                                       | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][76]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][36]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][32]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][28]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][24]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][20]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][12]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][0]                             | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][8]                             | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][40]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][72]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][68]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][64]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][60]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][52]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][4]                             | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][48]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][44]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][44]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][48]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][4]                             | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][52]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][60]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][64]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][68]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][72]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][76]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[6][8]                             | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[7][0]                             | controler2/system_rset                                             |                4 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[7][32]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[7][36]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[7][40]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[2][20]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][8]                             | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][0]                             | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][12]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][16]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][20]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][24]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][32]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][36]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][40]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][48]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][52]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][56]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][60]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][64]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][72]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[8][76]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][0]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[9][0]                             | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[9][64]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[9][72]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[9][76]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[9][8]                             | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[4][72]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[4][76]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][0]                             | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][12]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][20]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][24]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][28]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][32]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][36]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[5][40]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][16]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][28]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][32]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][36]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][40]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][44]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][48]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][52]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][56]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][64]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][72]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][8]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][0]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][24]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][20]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][24]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][28]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][32]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][36]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][40]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][44]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][48]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][52]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][56]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][72]                           | controler2/system_rset                                             |                4 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[12][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][36]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][56]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][64]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][72]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][8]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[16][0]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][0]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][16]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][20]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][24]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][28]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][32]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][0]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][40]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][44]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][48]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][52]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][56]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][64]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][72]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[10][8]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][0]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][16]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[11][20]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            |                                                                   | player2/blueghost_move/pixel_reg[2]_19[0]                          |                2 |              4 |
+|  clk_BUFG            | player1/blue_move_smart/divider_400mhz/sorted_directions          | player1/blue_move_smart/divider_400mhz/sorted_directions_reg[2]    |                1 |              4 |
+|  clk_BUFG            | player1/blue_move_smart/divider_400mhz/sorted_directions          | player1/blue_move_smart/divider_400mhz/sorted_directions_reg[3]    |                1 |              4 |
+|  clk_BUFG            | player1/blue_move_smart/divider_400mhz/E[0]                       |                                                                    |                3 |              4 |
+|  clk_BUFG            |                                                                   | vga1/pixel_reg[11]_534[0]                                          |                3 |              4 |
+|  clk_BUFG            |                                                                   | vga1/pixel_reg[11]_1092[0]                                         |                4 |              4 |
+|  clk_BUFG            |                                                                   | vga1/pixel_reg[5]_1                                                |                3 |              4 |
+|  clk_BUFG            |                                                                   | vga1/pixel_reg[5]_12                                               |                3 |              4 |
+|  clk_BUFG            |                                                                   | vga1/pixel_reg[5]_23                                               |                3 |              4 |
+|  clk_BUFG            |                                                                   | vga1/pixel_reg[11]_44                                              |                4 |              4 |
+|  clk_BUFG            |                                                                   | vga1/pixel_reg[11]_46                                              |                4 |              4 |
+|  clk_BUFG            |                                                                   | controler2/rset0                                                   |                4 |              4 |
+|  clk_BUFG            |                                                                   | controler2/rset0_0                                                 |                4 |              4 |
+|  clk_BUFG            |                                                                   | player2/blueghost_move/SR[0]                                       |                3 |              4 |
+|  clk_BUFG            | player1/blue_move_smart/divider_400mhz/sorted_directions          | player1/blue_move_smart/divider_400mhz/sorted_directions_reg[1]    |                1 |              4 |
+|  clk_BUFG            |                                                                   | player2/blueghost_move/pixel_reg[2]_2[0]                           |                3 |              4 |
+|  clk_BUFG            |                                                                   | player2/blueghost_move/pixel_reg[2]_20[0]                          |                2 |              4 |
+|  clk_BUFG            |                                                                   | player2/blueghost_move/pixel_reg[2]_21[0]                          |                4 |              4 |
+|  clk_BUFG            |                                                                   | player2/blueghost_move/pixel_reg[2]_22[0]                          |                1 |              4 |
+|  clk_BUFG            |                                                                   | player1/blueghost_move/pixel_reg[2]_17[0]                          |                2 |              4 |
+|  clk_BUFG            |                                                                   | player1/blueghost_move/pixel_reg[2]_18[0]                          |                2 |              4 |
+|  clk_BUFG            |                                                                   | player1/blueghost_move/pixel_reg[2]_19[0]                          |                3 |              4 |
+|  clk_BUFG            |                                                                   | player1/blueghost_move/pixel_reg[2]_2[0]                           |                2 |              4 |
+|  clk_BUFG            |                                                                   | player1/blueghost_move/pixel_reg[2]_20[0]                          |                1 |              4 |
+|  clk_BUFG            |                                                                   | player1/blueghost_move/SR[0]                                       |                2 |              4 |
+|  clk_BUFG            |                                                                   | display/p_0_in[1]                                                  |                1 |              4 |
+|  clk_BUFG            |                                                                   | display/seg[5]_i_1_n_0                                             |                1 |              4 |
+|  clk_BUFG            | player1/blueghost_move/E[0]                                       |                                                                    |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][16]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | player1/timer1/one_hz/E[0]                                        |                                                                    |                1 |              4 |
+|  clk_BUFG            | player1/specials_timer/one_hz/E[0]                                |                                                                    |                2 |              4 |
+|  clk_BUFG            | player1/player/eighth_second_divider/E[0]                         |                                                                    |                2 |              4 |
+|  clk_BUFG            | player1/pinkghost_move/E[0]                                       |                                                                    |                1 |              4 |
+|  clk_BUFG            | player1/pinkghost_move/controls_saved[3]_i_2_n_0                  | controler2/rset0                                                   |                2 |              4 |
+|  clk_BUFG            | player2/blue_move_smart/divider_400mhz/sorted_directions          | player2/blue_move_smart/divider_400mhz/sorted_directions_reg[0]    |                1 |              4 |
+|  clk_BUFG            | player2/blue_move_smart/divider_400mhz/sorted_directions          | player2/blue_move_smart/divider_400mhz/sorted_directions_reg[1]    |                2 |              4 |
+|  clk_BUFG            | player2/blue_move_smart/divider_400mhz/sorted_directions          | player2/blue_move_smart/divider_400mhz/sorted_directions_reg[2]    |                1 |              4 |
+|  clk_BUFG            | player2/blue_move_smart/divider_400mhz/sorted_directions          | player2/blue_move_smart/divider_400mhz/sorted_directions_reg[3]    |                2 |              4 |
+|  clk_BUFG            | player2/blue_move_smart/divider_400mhz/E[0]                       |                                                                    |                2 |              4 |
+|  clk_BUFG            | player1/greenghost_move/E[0]                                      |                                                                    |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][64]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | player1/blueghost_move/controls_saved[3]_i_1_n_0                  | controler2/rset0                                                   |                2 |              4 |
+|  clk_BUFG            | player1/pink_move_smart/divider_400mhz/sorted_directions          | player1/pink_move_smart/divider_400mhz/sorted_directions_reg[0]    |                3 |              4 |
+|  clk_BUFG            | player1/pink_move_smart/divider_400mhz/sorted_directions          | player1/pink_move_smart/divider_400mhz/sorted_directions_reg[1]    |                2 |              4 |
+|  clk_BUFG            | player1/pink_move_smart/divider_400mhz/sorted_directions          | player1/pink_move_smart/divider_400mhz/sorted_directions_reg[2]    |                1 |              4 |
+|  clk_BUFG            | player1/pink_move_smart/divider_400mhz/sorted_directions          | player1/pink_move_smart/divider_400mhz/sorted_directions_reg[3]    |                1 |              4 |
+|  clk_BUFG            | player1/pink_move_smart/divider_400mhz/next_direction_reg[0]_0[0] |                                                                    |                3 |              4 |
+|  clk_BUFG            | player1/green_move_smart/divider_400mhz/sorted_directions         | player1/green_move_smart/divider_400mhz/sorted_directions_reg[0]   |                2 |              4 |
+|  clk_BUFG            | player1/green_move_smart/divider_400mhz/sorted_directions         | player1/green_move_smart/divider_400mhz/sorted_directions_reg[1]   |                2 |              4 |
+|  clk_BUFG            | player1/green_move_smart/divider_400mhz/sorted_directions         | player1/green_move_smart/divider_400mhz/sorted_directions_reg[2]   |                1 |              4 |
+|  clk_BUFG            | player1/green_move_smart/divider_400mhz/sorted_directions         | player1/green_move_smart/divider_400mhz/sorted_directions_reg[3]   |                2 |              4 |
+|  clk_BUFG            | player1/green_move_smart/divider_400mhz/E[0]                      |                                                                    |                4 |              4 |
+|  clk_BUFG            | player1/blue_move_smart/divider_400mhz/sorted_directions          | player1/blue_move_smart/divider_400mhz/sorted_directions_reg[0]    |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][52]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[20][64]                           | controler2/system_rset                                             |                4 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[20][72]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[20][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[20][8]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][0]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][12]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][16]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][20]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][28]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][32]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][36]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][40]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][44]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[20][60]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][56]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][60]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[21][64]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[16][72]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[16][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][0]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][12]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][16]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][20]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][28]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][32]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][40]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][52]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][68]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[24][72]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[18][72]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[18][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][0]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][12]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][16]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][20]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][28]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][32]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][40]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][44]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][52]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][56]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][60]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][64]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][72]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[19][8]                            | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[20][0]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[20][12]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[20][16]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[20][20]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[20][52]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[20][56]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][32]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][24]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][20]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][44]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][52]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][56]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][64]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][72]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][76]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][8]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][0]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][16]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][20]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][24]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][28]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][48]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][36]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][40]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][44]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][48]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][52]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][56]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][16]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][0]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][44]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][8]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][76]                           | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][72]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[14][64]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][40]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][52]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][56]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][60]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][64]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][72]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][76]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][48]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[17][8]                            | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[18][0]                            | controler2/system_rset                                             |                3 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[18][28]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[18][32]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][44]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[18][40]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][40]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][36]                           | controler2/system_rset                                             |                1 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[18][44]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][36]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][24]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][32]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][20]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][32]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[13][28]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | builder/change_blocked/food_reg[15][28]                           | controler2/system_rset                                             |                2 |              4 |
+|  clk_BUFG            | controler2/clock/E[0]                                             |                                                                    |                3 |              5 |
+|  clk_BUFG            | player2/pink_move_smart/divider_400mhz/E[0]                       |                                                                    |                3 |              5 |
+|  clk_BUFG            | player1/pink_move_smart/divider_400mhz/E[0]                       |                                                                    |                2 |              5 |
+|  clk_BUFG            | controler1/clock/E[0]                                             |                                                                    |                2 |              5 |
+|  clk_BUFG            |                                                                   | vga1/wall_pixel_reg[3]_3                                           |                3 |              5 |
+|  clk_BUFG            |                                                                   | vga1/wall_pixel_reg[3]_1                                           |                3 |              5 |
+|  clk_BUFG            |                                                                   | player2/blueghost_move/pixel_reg[1]_5[0]                           |                3 |              6 |
+|  clk_BUFG            |                                                                   | player2/special_state_reg[0]_0[0]                                  |                3 |              6 |
+|  clk_BUFG            | player2/pink_move_smart/divider_400mhz/E[0]                       | player2/pink_move_smart/divider_400mhz/target_x_reg[7]             |                3 |              6 |
+|  clk_BUFG            | controler2/clock/data_stored_reg[0][0]                            |                                                                    |                4 |              6 |
+|  clk_BUFG            | controler2/p_0_in                                                 |                                                                    |                2 |              6 |
+|  clk_BUFG            |                                                                   | player1/greenghost_move/SR[0]                                      |                3 |              6 |
+|  clk_BUFG            |                                                                   | player1/blueghost_move/pixel_reg[1]_7[0]                           |                2 |              6 |
+|  clk_BUFG            |                                                                   | player1/special_state_reg[0]_0[0]                                  |                3 |              6 |
+|  clk_BUFG            |                                                                   | player2/greenghost_move/SR[0]                                      |                3 |              6 |
+|  clk_BUFG            | player1/pink_move_smart/divider_400mhz/E[0]                       | player1/pink_move_smart/divider_400mhz/target_x_reg[7]             |                4 |              6 |
+|  clk_BUFG            |                                                                   | controler1/clock/count[7]_i_1__3_n_0                               |                2 |              8 |
+|  clk_BUFG            | controler1/p_0_in                                                 |                                                                    |                2 |              8 |
+|  clk_BUFG            |                                                                   | controler2/clock/count[7]_i_1__4_n_0                               |                2 |              8 |
+|  clk_BUFG            | controler1/clock/data_stored_reg[0][0]                            |                                                                    |                3 |              8 |
+|  clk_BUFG            | player1/pink_move_smart/divider_400mhz/E[0]                       | player1/pacman_move/target_y_reg[5]_0                              |                6 |             10 |
+|  clk_BUFG            | player2/pink_move_smart/divider_400mhz/E[0]                       | player2/pacman_move/target_y_reg[5]_0                              |                5 |             10 |
+|  clk_BUFG            | player2/pinkghost_move/x[9]_i_1__3_n_0                            |                                                                    |                4 |             10 |
+|  clk_BUFG            | player1/pinkghost_move/x[9]_i_1_n_0                               |                                                                    |                4 |             10 |
+|  clk_BUFG            | player2/pinkghost_move/y[9]_i_1__3_n_0                            |                                                                    |                5 |             11 |
+|  clk_BUFG            | player1/pinkghost_move/y[9]_i_1_n_0                               |                                                                    |                4 |             11 |
+|  clk_BUFG            | centerbutton/count                                                | centerbutton/count[0]_i_1__11_n_0                                  |                5 |             20 |
+|  clk_BUFG            | player1/green_move_smart/divider_400mhz/target_x_reg[0]_0         | player1/green_move_smart/divider_400mhz/target_x_reg[0]_1          |               11 |             20 |
+|  clk_BUFG            | player2/blue_move_smart/divider_400mhz/target_y_reg[4]            | player2/blue_move_smart/divider_400mhz/target_y_reg[8]             |                7 |             20 |
+|  clk_BUFG            | player1/blue_move_smart/divider_400mhz/target_y_reg[4]            | player1/blue_move_smart/divider_400mhz/target_y_reg[8]             |               10 |             20 |
+|  clk_BUFG            | player2/green_move_smart/divider_400mhz/target_x_reg[0]_0         | player2/green_move_smart/divider_400mhz/target_x_reg[0]_1          |               12 |             20 |
+|  clk_BUFG            | player2/pacman_move/y[9]_i_1__6_n_0                               | controler2/rset0_0                                                 |                8 |             21 |
+|  clk_BUFG            | player1/pacman_move/y[9]_i_1__2_n_0                               | controler2/rset0                                                   |                6 |             21 |
+|  clk_BUFG            |                                                                   | player1/pink_move_smart/divider_400mhz/counter[0]_i_1__1_n_0       |                7 |             26 |
+|  clk_BUFG            |                                                                   | player1/blue_move_smart/divider_400mhz/counter[0]_i_1__3_n_0       |                7 |             26 |
+|  clk_BUFG            |                                                                   | player2/player/eighth_second_divider/counter[0]_i_1__6_n_0         |                7 |             26 |
+|  clk_BUFG            |                                                                   | player1/green_move_smart/one_second_divider/counter[0]_i_1__4_n_0  |                7 |             26 |
+|  clk_BUFG            |                                                                   | player1/green_move_smart/divider_400mhz/counter[0]_i_1__5_n_0      |                7 |             26 |
+|  clk_BUFG            |                                                                   | player1/pink_move_smart/one_second_divider/counter[0]_i_1__0_n_0   |                7 |             26 |
+|  clk_BUFG            |                                                                   | player1/player/eighth_second_divider/counter[0]_i_1_n_0            |                7 |             26 |
+|  clk_BUFG            |                                                                   | player1/blue_move_smart/one_second_divider/counter[0]_i_1__2_n_0   |                7 |             26 |
+|  clk_BUFG            |                                                                   | player2/blue_move_smart/divider_400mhz/counter[0]_i_1__10_n_0      |                7 |             26 |
+|  clk_BUFG            |                                                                   | player2/blue_move_smart/one_second_divider/counter[0]_i_1__9_n_0   |                7 |             26 |
+|  clk_BUFG            |                                                                   | player2/pink_move_smart/one_second_divider/counter[0]_i_1__7_n_0   |                7 |             26 |
+|  clk_BUFG            |                                                                   | player2/pink_move_smart/divider_400mhz/counter[0]_i_1__8_n_0       |                7 |             26 |
+|  clk_BUFG            |                                                                   | player2/green_move_smart/one_second_divider/counter[0]_i_1__11_n_0 |                7 |             26 |
+|  clk_BUFG            |                                                                   | player2/green_move_smart/divider_400mhz/counter[0]_i_1__12_n_0     |                7 |             26 |
+|  clk_BUFG            | player2/blueghost_move/x[9]_i_1__4_n_0                            |                                                                    |               11 |             27 |
+|  clk_BUFG            | player2/blueghost_move/y[9]_i_1__4_n_0                            |                                                                    |               13 |             28 |
+|  clk_BUFG            | player1/greenghost_move/y[9]_i_1__1_n_0                           |                                                                    |               11 |             29 |
+|  clk_BUFG            |                                                                   | player2/specials_timer/one_hz/count1                               |               10 |             29 |
+|  clk_BUFG            |                                                                   | player2/timer1/one_hz/count1                                       |                7 |             29 |
+|  clk_BUFG            |                                                                   | player1/timer1/one_hz/count1                                       |                7 |             29 |
+|  clk_BUFG            |                                                                   | player1/specials_timer/one_hz/count1                               |                8 |             29 |
+|  clk_BUFG            | player2/greenghost_move/y[9]_i_1__5_n_0                           |                                                                    |               12 |             30 |
+|  clk_BUFG            | player1/blueghost_move/y[9]_i_1__0_n_0                            |                                                                    |               13 |             32 |
+|  clk_BUFG            | player1/blueghost_move/x[9]_i_1__0_n_0                            |                                                                    |               14 |             33 |
+|  clk_BUFG            | player1/greenghost_move/x[9]_i_1__1_n_0                           |                                                                    |               14 |             34 |
+|  clk_BUFG            | player2/greenghost_move/x[9]_i_1__5_n_0                           |                                                                    |               14 |             34 |
+|  clk_BUFG            | player2/pacman_move/y[9]_i_1__6_n_0                               |                                                                    |               16 |             42 |
+|  clk_BUFG            | player1/pacman_move/y[9]_i_1__2_n_0                               |                                                                    |               18 |             43 |
+|  clk_BUFG            | player1/pacman_move/x[9]_i_1__2_n_0                               |                                                                    |               25 |             60 |
+|  clk_BUFG            | player2/pacman_move/x[9]_i_1__6_n_0                               |                                                                    |               22 |             63 |
+|  clk_BUFG            |                                                                   | vga1/hreset                                                        |               76 |            108 |
+|  clk_BUFG            | vga1/hreset                                                       | vga1/vcount0                                                       |              111 |            182 |
+|  clk_BUFG            | player2/food_rset                                                 |                                                                    |              250 |            600 |
+|  clk_BUFG            | player1/food_rset                                                 |                                                                    |              241 |            600 |
+|  clk_BUFG            |                                                                   | controler2/system_rset                                             |              859 |           1412 |
+|  clk_BUFG            |                                                                   |                                                                    |             3020 |           7057 |
++----------------------+-------------------------------------------------------------------+--------------------------------------------------------------------+------------------+----------------+
+
+
